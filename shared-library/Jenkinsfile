@@ -1,6 +1,6 @@
 @Library("library") _
 pipeline {
-  agent any {
+  agent any 
       stages {
           stage(cloning) {
                 steps {
@@ -11,6 +11,5 @@ pipeline {
                               }
                           }
                   }
-            }
         }
   
