@@ -4,7 +4,7 @@ pipeline {
       stages {
           stage('cloning') {
                 steps {
-                      cloning("https://github.com/Rahul-Palande11/SRE-PATH.git","main")
+                      cloning ("https://github.com/Rahul-Palande11/SRE-PATH.git","main")
                     }                    
                           }
         stage('build') {
