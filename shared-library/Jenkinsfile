@@ -2,14 +2,14 @@
 pipeline {
   agent any 
       stages {
-          stage(cloning) {
+          stage('cloning') {
                 steps {
                       cloning("https://github.com/Rahul-Palande11/SRE-PATH.git","main")
                     }                    
                           }
-        stage(build) {
+        stage('build') {
                 steps {
-                   build()
+                       build()
                 }
               }
         }
