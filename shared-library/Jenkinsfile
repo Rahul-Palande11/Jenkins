@@ -7,7 +7,7 @@ pipeline {
                       cloning("https://github.com/Rahul-Palande11/SRE-PATH.git","main")
                     }                    
                           }
-        stage('build') {
+        stage(build) {
                 steps {
                    build()
                 }
