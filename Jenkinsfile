@@ -4,19 +4,19 @@ pipeline {
                 stage('Build') {
                         steps {
                                  
-                                bat './build.sh'
+                                bat './build.bat'
                         }
                 }
                 stage('Test') {
                         steps {
                                  
-                                bat './test.sh'                          
+                                bat './test.bat'                          
                         }
                 }
                 stage('Deploy') {
                         steps {
                                 
-                                bat './deploy.sh'                            
+                                bat './deploy.bat'                            
                         }
                 }
         }        
